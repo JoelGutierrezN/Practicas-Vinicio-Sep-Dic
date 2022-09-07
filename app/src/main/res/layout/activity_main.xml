@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Joel Gutierrez Nuñez"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.344" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="88dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IDGS-101"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="284dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="296dp"
+        android:layout_height="202dp"
+        android:text="Soy una persona restringida y callada que le gusta desenvolverse en su circulo, dedicada bajo sus propios intereses y quienes se interesan en mi. Comunmente no suelo hablar mucho con la gente pero tiendo a ser relajista con quienes me llevo bien, me enfoco mucho en mis metas personales pero en ayudar mucho y muchas veces demasiado al resto de la gente. Soy feliz con lo que hago y con lo que me hace sentir bien y en costante progreso"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="347dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
